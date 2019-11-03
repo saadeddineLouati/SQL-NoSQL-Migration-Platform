@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/TOS_BD-20181026_1147-V7.1.1 BIGData/TOS_BD-20181026_1147-V7.1.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_gNbP4FoXEemvpJFZ5G2n5Q" name="DataOperation"/>
+    <routinesParameter id="_gfnMEFoXEemvpJFZ5G2n5Q" name="Mathematical"/>
+    <routinesParameter id="_ggxCoFoXEemvpJFZ5G2n5Q" name="Numeric"/>
+    <routinesParameter id="_giEqMFoXEemvpJFZ5G2n5Q" name="Relational"/>
+    <routinesParameter id="_giL-8FoXEemvpJFZ5G2n5Q" name="StringHandling"/>
+    <routinesParameter id="_gijLUFoXEemvpJFZ5G2n5Q" name="TalendDataGenerator"/>
+    <routinesParameter id="_gjF94FoXEemvpJFZ5G2n5Q" name="TalendDate"/>
+    <routinesParameter id="_gklLoFoXEemvpJFZ5G2n5Q" name="TalendStringUtil"/>
+    <routinesParameter id="_gkByAFoXEemvpJFZ5G2n5Q" name="TalendString"/>
+  </parameters>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_A-OAkF32Eem0Pocodm3Tbw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;northwind&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;territories&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `territories`.`TerritoryID`, &#xA;  `territories`.`TerritoryDescription`, &#xA;  `territories`.`RegionID`&#xA;FROM `territories`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryDescription"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegionID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="20" name="TerritoryID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="TerritoryDescription" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="RegionID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tNeo4jOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNeo4jOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tNeo4jConnection_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="NEO4J_2_2_X"/>
+    <elementParameter field="LABEL" name="NOTE" value="Please note that this component will not work with tNeo4jConnection setting in version 3.2.X." show="false"/>
+    <elementParameter field="CHECK" name="REMOTE_SERVER" value="true"/>
+    <elementParameter field="DIRECTORY" name="DATABASE_PATH" value="&quot;bolt://localhost:7687/&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SERVER_URL" value="&quot;http://localhost:7474/db/Graph&quot;"/>
+    <elementParameter field="CHECK" name="SHUTDOWN_DB" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_USERNAME" value="false" show="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;neo4j&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="OmIwHIBrNf4="/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="USE_LABEL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL_NAME" value="&quot;territoire&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TEXT" name="INDEX_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="INDEX_KEY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="INDEX_VALUE" value="TerritoryID" show="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryID"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value="&quot;territoryID&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryDescription"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegionID"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="INDEXES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryID"/>
+      <elementValue elementRef="INDEX_NAME" value="&quot;territoryID&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;territoryID&quot;"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="UNIQUE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="RELATIONSHIPS" show="false"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="&quot;30000&quot;"/>
+    <elementParameter field="CHECK" name="BATCH_IMPORT" value="false"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_1" value="Be careful with batch importer. For more informations refer&#xA;&#x9;&#x9;&#x9;&#x9;to documentation.&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_2" value="Never stop job during the importation. Some data files could&#xA;&#x9;&#x9;&#x9;&#x9;be corrupted. MAKE BACKUP !!!&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="TEXT" name="NODE_MAPPED_MEMORY" value="&quot;90M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="RELATIONSHIP_MAPPED_MEMORY" value="&quot;300M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTY_MAPPED_MEMORY" value="&quot;50M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="STRINGS_MAPPED_MEMORY" value="&quot;100M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ARRAYS_MAPPED_MEMORY" value="&quot;0M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tNeo4jOutput_2">
+      <column comment="" key="false" length="20" name="TerritoryID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="TerritoryDescription" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="RegionID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_A-OAkF32Eem0Pocodm3Tbw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;northwind&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_A-OAkF32Eem0Pocodm3Tbw - employeeterritories" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;employeeterritories&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `employeeterritories`.`EmployeeID`, &#xA;  `employeeterritories`.`TerritoryID`&#xA;FROM `employeeterritories`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TerritoryID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="employeeterritories" name="tDBInput_3">
+      <column comment="" key="true" length="10" name="EmployeeID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="20" name="TerritoryID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tNeo4jOutputRelationship" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNeo4jOutputRelationship_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tNeo4jConnection_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="NEO4J_2_2_X"/>
+    <elementParameter field="LABEL" name="NOTE" value="Please note that this component will not work with tNeo4jConnection setting in version 3.2.X." show="false"/>
+    <elementParameter field="CHECK" name="REMOTE_SERVER" value="true"/>
+    <elementParameter field="DIRECTORY" name="DATABASE_PATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SERVER_URL" value="&quot;http://localhost:7474/db/Graph&quot;"/>
+    <elementParameter field="CHECK" name="SHUTDOWN_DB" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_USERNAME" value="false" show="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;neo4j&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="RELATIONSHIP_TYPE" value="&quot;represents&quot;"/>
+    <elementParameter field="TEXT" name="START_INDEX_NAME" value="&quot;employeeId&quot;"/>
+    <elementParameter field="TEXT" name="START_INDEX_KEY" value="&quot;employeeId&quot;"/>
+    <elementParameter field="COLUMN_LIST" name="START_INDEX_VALUE" value="EmployeeID"/>
+    <elementParameter field="CLOSED_LIST" name="RELATIONSHIP_DIRECTION" value="OUTGOING"/>
+    <elementParameter field="TEXT" name="END_INDEX_NAME" value="&quot;territoryID&quot;"/>
+    <elementParameter field="TEXT" name="END_INDEX_KEY" value="&quot;territoryID&quot;"/>
+    <elementParameter field="COLUMN_LIST" name="END_INDEX_VALUE" value="TerritoryID"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="PROPERTY_NAME" value="&quot;EmployeeID&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="EmployeeID"/>
+      <elementValue elementRef="PROPERTY_NAME" value="&quot;territoryID&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="TerritoryID"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="&quot;30000&quot;"/>
+    <elementParameter field="CHECK" name="BATCH_IMPORT" value="false"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_1" value="Be careful with batch importer. For more informations refer&#xA;&#x9;&#x9;&#x9;&#x9;to documentation.&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_2" value="Never stop job during the importation. Some data files could&#xA;&#x9;&#x9;&#x9;&#x9;be corrupted. MAKE BACKUP !!!&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="TEXT" name="RELATIONSHIP_MAPPED_MEMORY" value="&quot;300M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTY_MAPPED_MEMORY" value="&quot;50M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="STRINGS_MAPPED_MEMORY" value="&quot;100M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ARRAYS_MAPPED_MEMORY" value="&quot;0M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="employeeterritories" name="tNeo4jOutputRelationship_1">
+      <column comment="" key="true" length="10" name="EmployeeID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="20" name="TerritoryID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_A-OAkF32Eem0Pocodm3Tbw" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;northwind&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;employees&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `employees`.`EmployeeID`, &#xA;  `employees`.`LastName`, &#xA;  `employees`.`FirstName`, &#xA;  `employees`.`Title`, &#xA;  `employees`.`TitleOfCourtesy`, &#xA;  `employees`.`BirthDate`, &#xA;  `employees`.`HireDate`, &#xA;  `employees`.`Address`, &#xA;  `employees`.`City`, &#xA;  `employees`.`Region`, &#xA;  `employees`.`PostalCode`, &#xA;  `employees`.`Country`, &#xA;  `employees`.`HomePhone`, &#xA;  `employees`.`Extension`, &#xA;  `employees`.`Photo`, &#xA;  `employees`.`Notes`, &#xA;  `employees`.`ReportsTo`, &#xA;  `employees`.`PhotoPath`, &#xA;  `employees`.`Salary`&#xA;FROM `employees`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TitleOfCourtesy"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BirthDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HireDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Region"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PostalCode"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Country"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HomePhone"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Extension"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Photo"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Notes"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ReportsTo"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PhotoPath"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Salary"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="11" name="EmployeeID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="LastName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="FirstName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="Title" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="TitleOfCourtesy" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="BirthDate" nullable="true" pattern="" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="HireDate" nullable="true" pattern="" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="Address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="City" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Region" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PostalCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="Country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="24" name="HomePhone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="Extension" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="Photo" nullable="true" pattern="" precision="0" sourceType="BLOB" type="id_Object" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="16777215" name="Notes" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ReportsTo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="255" name="PhotoPath" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="Salary" nullable="true" pattern="" precision="31" sourceType="FLOAT" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tNeo4jOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNeo4jOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tNeo4jConnection_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="NEO4J_2_2_X"/>
+    <elementParameter field="LABEL" name="NOTE" value="Please note that this component will not work with tNeo4jConnection setting in version 3.2.X." show="false"/>
+    <elementParameter field="CHECK" name="REMOTE_SERVER" value="true"/>
+    <elementParameter field="DIRECTORY" name="DATABASE_PATH" value="&quot;bolt://localhost:7687/&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SERVER_URL" value="&quot;http://localhost:7474/db/Graph&quot;"/>
+    <elementParameter field="CHECK" name="SHUTDOWN_DB" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SET_USERNAME" value="false" show="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;neo4j&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="OmIwHIBrNf4="/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="USE_LABEL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL_NAME" value="&quot;employee&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TEXT" name="INDEX_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="INDEX_KEY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="INDEX_VALUE" value="EmployeeID" show="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeID"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value="&quot;employeeId&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TitleOfCourtesy"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BirthDate"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HireDate"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Region"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PostalCode"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Country"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HomePhone"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Extension"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Photo"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Notes"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ReportsTo"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PhotoPath"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Salary"/>
+      <elementValue elementRef="AUTO_INDEXED" value="false"/>
+      <elementValue elementRef="INDEX_NAMES" value=""/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="INDEXES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeID"/>
+      <elementValue elementRef="INDEX_NAME" value="&quot;employeeId&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;employeeId&quot;"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="UNIQUE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="RELATIONSHIPS" show="false"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="&quot;30000&quot;"/>
+    <elementParameter field="CHECK" name="BATCH_IMPORT" value="false"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_1" value="Be careful with batch importer. For more informations refer&#xA;&#x9;&#x9;&#x9;&#x9;to documentation.&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="LABEL" name="BATCH_INFORMATION_2" value="Never stop job during the importation. Some data files could&#xA;&#x9;&#x9;&#x9;&#x9;be corrupted. MAKE BACKUP !!!&#xA;&#x9;&#x9;&#x9;"/>
+    <elementParameter field="TEXT" name="NODE_MAPPED_MEMORY" value="&quot;90M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="RELATIONSHIP_MAPPED_MEMORY" value="&quot;300M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTY_MAPPED_MEMORY" value="&quot;50M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="STRINGS_MAPPED_MEMORY" value="&quot;100M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ARRAYS_MAPPED_MEMORY" value="&quot;0M&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tNeo4jOutput_1">
+      <column comment="" defaultValue="" key="false" length="11" name="EmployeeID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="LastName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="FirstName" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="Title" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="25" name="TitleOfCourtesy" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="BirthDate" nullable="true" pattern="" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="HireDate" nullable="true" pattern="" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="Address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="City" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Region" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="PostalCode" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Country" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="HomePhone" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Extension" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2147483647" name="Photo" nullable="true" pattern="" precision="0" sourceType="BLOB" type="id_Object" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="16777215" name="Notes" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="ReportsTo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PhotoPath" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="Salary" nullable="true" pattern="" precision="31" sourceType="FLOAT" type="id_Float" originalLength="-1" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tNeo4jOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDBInput_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tNeo4jOutputRelationship_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tNeo4jOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

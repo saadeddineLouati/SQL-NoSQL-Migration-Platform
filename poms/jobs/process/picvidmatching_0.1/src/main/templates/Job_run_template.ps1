@@ -1,0 +1,3 @@
+$fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+cd $fileDir
+java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' '-Dfile.encoding=UTF-8' -cp '.;../lib/routines.jar;../lib/com.mongodb_2.6.5.1.jar;../lib/dom4j-1.6.1.jar;../lib/ffmpeg-2.1.1-windows-x86.jar;../lib/ffmpeg-2.1.1-windows-x86_64.jar;../lib/javacpp.jar;../lib/javacv-windows-x86.jar;../lib/javacv-windows-x86_64.jar;../lib/javacv.jar;../lib/log4j-1.2.17.jar;../lib/mongo-java-driver-3.5.0.jar;../lib/opencv-2.4.8-windows-x86.jar;../lib/opencv-2.4.8-windows-x86_64.jar;../lib/xuggle-xuggler-noarch-5.4.jar;picvidmatching_0_1.jar;' sqlnosqlmigration.picvidmatching_0_1.picVidMatching  %*

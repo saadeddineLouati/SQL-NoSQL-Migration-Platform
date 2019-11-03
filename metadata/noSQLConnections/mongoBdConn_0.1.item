@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_obG90FopEemvpJFZ5G2n5Q" name="mongoBdConn" label="mongoBdConn" dataPackage="_tgN2cFopEemvpJFZ5G2n5Q _thCV0lopEemvpJFZ5G2n5Q" dbType="MONGODB">
+    <attributes xmi:id="_Xi03AGbrEemLm4mWxh967A" key="DB_VERSION" value="MONGODB_3_5_X"/>
+    <attributes xmi:id="_Xi03AWbrEemLm4mWxh967A" key="HOST" value="localhost"/>
+    <attributes xmi:id="_Xi03AmbrEemLm4mWxh967A" key="PORT" value="27017"/>
+    <attributes xmi:id="_Xi03A2brEemLm4mWxh967A" key="DATABASE" value="gridfs"/>
+    <attributes xmi:id="_Xi03BGbrEemLm4mWxh967A" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_Xi03BWbrEemLm4mWxh967A" key="USERNAME" value=""/>
+    <attributes xmi:id="_Xi03BmbrEemLm4mWxh967A" key="PASSWORD" value=""/>
+    <attributes xmi:id="_Xi03B2brEemLm4mWxh967A" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_Xi03CGbrEemLm4mWxh967A" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_tgN2cFopEemvpJFZ5G2n5Q" name="users" dataManager="_obG90FopEemvpJFZ5G2n5Q">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_thBHsFopEemvpJFZ5G2n5Q" name="employees" id="_plpeUVopEemvpJFZ5G2n5Q" label="employees">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV0FopEemvpJFZ5G2n5Q" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV0VopEemvpJFZ5G2n5Q" name="Name" label="Name" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_thCV0lopEemvpJFZ5G2n5Q" name="users" dataManager="_obG90FopEemvpJFZ5G2n5Q">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_thCV01opEemvpJFZ5G2n5Q" name="users" id="_plpeUFopEemvpJFZ5G2n5Q" label="users">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV1FopEemvpJFZ5G2n5Q" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV1VopEemvpJFZ5G2n5Q" name="Name" label="Name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV1lopEemvpJFZ5G2n5Q" name="age" label="age" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV11opEemvpJFZ5G2n5Q" name="adress" label="adress" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_thCV2FopEemvpJFZ5G2n5Q" name="location" label="location" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

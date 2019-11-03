@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_UtmWkVoXEemvpJFZ5G2n5Q" label="sqlNoSqlMigration" description="" language="java" technicalLabel="SQLNOSQLMIGRATION" local="true" author="_UypOoFoXEemvpJFZ5G2n5Q" productVersion="Talend Open Studio for Big Data-7.1.1.20181026_1147" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_VrosIFoXEemvpJFZ5G2n5Q" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_UypOoFoXEemvpJFZ5G2n5Q" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
